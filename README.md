@@ -1,7 +1,7 @@
 # Python Practice & Assignments
 
-This repository contains my Python practices and All the programs that i write in my classes.
+This Repository Contain All The Files And Codes That I Practice And Create In My Python Class.
 
-## Stucture
-* **Assignments/**: Solutions Of Given Assignments
-* **Class Lec/**: Contains Whatever I Wrote In My Classes
+## Structure
+* **Assignments**: Solutions Of Given Assignments
+* **Class Lec**: It Contains Whatever I Wrote In My Classes
