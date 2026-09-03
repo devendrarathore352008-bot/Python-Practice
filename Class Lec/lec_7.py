@@ -1,6 +1,18 @@
+#                                   { Date:03/09/2026 }
+
+# Introduction of For Loop
+
+'''
+for <variable> in <inbuilt or 
+
+'''
+
+
 li = [10,20,30,40,50]
 for i in li:
     print(i)
+
+#Here (i) is a variable that we are using
 
 
 for i in range(0,501):
@@ -41,3 +53,32 @@ for i in range(1,n+1):
     total_sum += i
 
 print(total_sum)
+
+
+
+
+
+# USING WHILE LOOP
+# write a program for adding reciprocal of first n numbers
+
+n = int(input("Enter the number:"))
+sum = 0
+i = 1
+while (i<=n):
+    sum += 1/i
+    i += 1
+print("Total Sum :",sum)
+
+
+
+'''
+Same program by using (for)loop
+
+n = int(input("Enter the number:"))
+total_sum=0
+for i in range(1,n+1):
+    total_sum = total_sum + 1/i
+    # i += 1 there is not use of it
+
+print(total_sum)
+'''
