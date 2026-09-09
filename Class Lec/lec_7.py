@@ -3,7 +3,8 @@
 # Introduction of For Loop
 
 '''
-for <variable> in <inbuilt or 
+for <variable> in <inbuilt function or criteria> :
+    write you conditions or code here 
 
 '''
 
