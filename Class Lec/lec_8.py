@@ -98,8 +98,4 @@ for i in range(1,11):
     print(f"{table} * {i} = {table*i} ")
 
 
-print("-----Printing Patterns")
-# program to print patterna
-s = "*"
-for i in range(1,6):
-    print(str(i*s))
+
