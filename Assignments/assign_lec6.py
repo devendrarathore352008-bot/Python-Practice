@@ -23,7 +23,7 @@ print("---End Of The Program---")
 # Q.2 Practice by using if,elif or else conditional statements to check which number is greater between two numbers.
 
 
-print("---    Checking Which Number is Greater b/w two numbers    ---")
+print("---    Checking Which Number is the greatest b/w two numbers    ---")
 
 # Taking numbers as input from the users
 
@@ -33,10 +33,13 @@ num2 = int(input("Enter the second number :"))
 # using conditional statement to check which is greater b/w two numbers
 
 if num1 > num2 :
-    print("First number is Greater Than Second Number.")
+    print(f"First number {num1} is Greater Than Second Number.")
+
+elif num2 > num1:
+    print(f"Second number {num2} is Greater Than First Number.")
 
 else:
-    print("Second number is Greater Than First Number.")
+    print(f"Both numbers are equal.")
 
 
 print("---End Of The Program---")
@@ -45,7 +48,7 @@ print("---End Of The Program---")
 
 # Q.3 Practice by using if,elif or else conditional statements to check which number is greater among three numbers.
 
-print("---   Checking Which Number is Greater among three numbers   ---")
+print("---   Checking Which Number is the Greatest among three numbers   ---")
 
 # Taking numbers as input from the user
 
@@ -56,14 +59,17 @@ number3 = int(input("Enter The Third Number :"))
 
 # using conditional statements to check which number is greater
 
-if (number1 > number2) and (number1 > number3) :
-    print("First Number is greater than other two numbers.")
+if (number3 == number1) and (number2 == number1) and (number2 == number3):
+    print("All three numbers are equal to each other.")
+
+elif (number1 > number2) and (number1 > number3) :
+    print(f"{number1} is the greatest number.")
 
 elif (number2 > number1) and (number2 > number3) :
-    print("Second Number is greater than other two numbers.")
+    print(f"{number2} is the greatest number.")
 
 else:
-    print("Third Number is greater than other two numbers.")
+    print(f"{number3} is the greatest number.")
 
 
 print("---End Of The Program---")
