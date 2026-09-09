@@ -66,8 +66,11 @@ num2 = int(input("Enter the second number :"))
 if num1 > num2 :
     print(f"First number {num1} is Greater Than Second Number.")
 
-else:
+elif num2 > num1:
     print(f"Second number {num2} is Greater Than First Number.")
+
+else:
+    print("Both numbers are equal.")
 
 
 
@@ -84,14 +87,18 @@ number2 = int(input("Enter The Second Number :"))
 number3 = int(input("Enter The Third Number :"))
 
 
-if (number1 > number2) and (number1 > number3) :
-    print(f"First Number {number1} is greater than other two numbers.")
+if (number3 == number1) and (number2 == number1) and (number2 == number3):
+    print("All three numbers are equal to each other.")
+
+elif (number1 > number2) and (number1 > number3) :
+    print(f"{number1} is the greatest number.")
 
 elif (number2 > number1) and (number2 > number3) :
-    print(f"Second Number {number2} is greater than other two numbers.")
+    print(f"{number2} is the greatest number.")
 
 else:
-    print(f"Third Number {number3} is greater than other two numbers.")
+    print(f"{number3} is the greatest number.")
+    
 
 
 
