@@ -1,4 +1,11 @@
-#    Write A Program To Calculate The SIMPLE INTEREST Using Formula (Date:27/08/2026)
+#                                                          (Date:09/09/2026)
+
+# Practicing Six Programms.
+
+
+
+
+#    Write A Program To Calculate The SIMPLE INTEREST Using Formula. 
 
 
 # Take Principal, Rate and Time as Input from the User
