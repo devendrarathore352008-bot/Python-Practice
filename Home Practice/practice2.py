@@ -1,65 +1,65 @@
-# # Date : 08/09/2026
+# Date : 08/09/2026
 
-# print("Hello World.")
+print("Hello World.")
 
-# a = float(input("Enter the first number:"))
-# b = float(input("Enter the second number:"))
+a = float(input("Enter the first number:"))
+b = float(input("Enter the second number:"))
 
-# sum = a + b
-# print(f"The sum of given two numbers is {sum} .")
-
-
-
-# # Area of circle
-
-# radius = float(input("Enter the radius of circle: "))
-
-# area_of_circle = 3.14*radius*radius
-# print(f"The Area of circle is {area_of_circle}")
+sum = a + b
+print(f"The sum of given two numbers is {sum} .")
 
 
 
-# # Swap Two Numbers
+# Area of circle
 
-# x = float(input("Enter the value of x: "))
-# y = float(input("Enter the value of y: "))
+radius = float(input("Enter the radius of circle: "))
 
-# # Taking a extra variable
+area_of_circle = 3.14*radius*radius
+print(f"The Area of circle is {area_of_circle}")
 
-# extra = x
-# x = y
-# y = extra
 
-# print(f"The value of x is {x} and y is {y}")
+
+# Swap Two Numbers
+
+x = float(input("Enter the value of x: "))
+y = float(input("Enter the value of y: "))
+
+# Taking a extra variable
+
+extra = x
+x = y
+y = extra
+
+print(f"The value of x is {x} and y is {y}")
 
 
 
 # Print Even Or Odd
 
-# x = float(input("Enter the value of x: "))
+x = float(input("Enter the value of x: "))
 
-# if x % 2 == 0:
-#     print(f"The number {x} is Even.")
+if x % 2 == 0:
+    print(f"The number {x} is Even.")
 
-# else:
-#     print(f"The number {x} is Odd.")
+else:
+    print(f"The number {x} is Odd.")
 
 
 
 
 # find leap year
 
-# year = int(input("Enter the year: "))
+year = int(input("Enter the year: "))
 
-# if year % 4 == 0:
-#     print(f"The Year {year} is a leap year.")
-# else:
-#     print(f"The Year {year} is not a leap year.")
-
-
+if year % 4 == 0:
+    print(f"The Year {year} is a leap year.")
+else:
+    print(f"The Year {year} is not a leap year.")
 
 
-# Find The Factorial
+
+
+# Find The Factors
 
 num = int(input("Enter the number:"))
 
@@ -70,4 +70,15 @@ for i in range(1,num+1):
         Factors.append(i)
         i += 1
 
-print(f"The Factors of number {num} are {Factors}")
+print(f"The Factors of the number {num} are {Factors}")
+
+
+# Find The Factorial
+
+num = int(input("Enter the number:"))
+fact = 1
+while num > 0:
+    fact *= num
+    num -= 1
+    
+print(fact)
