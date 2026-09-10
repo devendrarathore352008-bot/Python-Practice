@@ -172,5 +172,5 @@ for prime in range(2,101):
         if prime % j  == 0: 
             it_is_prime = False 
             break
-    if it_is_prime:
+    if it_is_prime == True:
         print(prime)
