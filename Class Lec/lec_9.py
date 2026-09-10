@@ -119,6 +119,8 @@ print("Sum =", sum)
 
 # Find out what kind of loop it is
 
+'''
+
 i = 1
 while i <= 10:
     if i % 2 == 0:
@@ -126,8 +128,7 @@ while i <= 10:
     print(i,end=" ")
     i = i + 1
 
-
-
+'''
 
 # It is an infinite loop
 
@@ -157,14 +158,30 @@ for num in range(1,101):
 
 
 # A program to write prime numbers 1 to 100
-# it_is_prime = True
 # for prime in range(1,101):
 #     for j in range(2,prime):
-#         if prime % j  == 0: 
-#             it_is_prime = False 
-#             break
-#     if it_is_prime:
-#         print(prime)
+#         if prime % j  == 0:
+
+prime_list=[]
+
+for prime in range(2,101):
+    for j in range(2,prime):
+        if prime% j == 0:
+            break
+    else:
+        prime_list.append(prime)
+
+print(f"The prime numbers b/w 1 - 100 is {len(prime_list)}\nList: {prime_list}")
+
+
+
+
+
+
+
+
+'''
+This is second method 
 
 for prime in range(2,101):
     it_is_prime = True
@@ -174,3 +191,9 @@ for prime in range(2,101):
             break
     if it_is_prime == True:
         print(prime)
+
+
+'''
+
+
+    
