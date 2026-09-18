@@ -43,7 +43,7 @@ print(f"How much does it cost to operate one server per month? \n Answer: ${per_
 print(f"How many days can I operate one server with ${budget}? \n Answer: {days:.1f} days.")
 
 '''
-You can use these print statements if you don't want to use f string method which is little bit typical
+You can use these print statements if you don't want to use f string method which is little bit typical.
 
 
 print("How much does it cost to operate one server per day?")
