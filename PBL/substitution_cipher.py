@@ -2,8 +2,8 @@ alphabet_keys  = "abcdefghijklmnopqrstuvwxyz"
 secret_keys = "zxcvbnmasdfghjklpoiuytrewq"
 
 # Welcome message
-print("---------        WELCOME TO THE PROGRAM     ----------")
-print(" --- Substitution Cipher, What's The Secret! ---")
+print("----------------------------------------\n      WELCOME TO THE PROGRAM\n----------------------------------------")
+print("----------------------------------------\n      SUBSTITUTION CIPHER\n----------------------------------------\n")
 print()
 
 while True:
@@ -18,13 +18,14 @@ while True:
     print(" 3. Exit.")
     print()
     
-    choice1 = int(input("Enter Your Choice: "))
+    choice1 = int(input("Enter Your Choice [1-3]: "))
     print()
 
     if choice1 == 2:
         continue # Skip everthing and start from the starting point
     elif choice1 == 3:
-        print("--- THANKS FOR USING SUBSTITUTION CIPHER ---")
+        print("----------------------------------------\n  THANKS FOR USING SUBSTITUTION CIPHER\n----------------------------------------")
+        print("----------------------------------------\n      HOPE YOU WILL COME AGAIN\n----------------------------------------\n")
         break # It will end program
     elif choice1 == 1:
         # Encrypt the message
@@ -47,13 +48,14 @@ while True:
     print(" 3. Exit.")
     print()
 
-    choice2 = int(input("Enter Your Choice: "))
+    choice2 = int(input("Enter Your Choice [1-3]: "))
     print()
 
     if choice2 == 2:
         continue # Skip everthing and start from the starting point
     elif choice2 == 3:
-        print("--- THANKS FOR USING SUBSTITUTION CIPHER ---")
+        print("----------------------------------------\n  THANKS FOR USING SUBSTITUTION CIPHER\n----------------------------------------")
+        print("----------------------------------------\n      HOPE YOU WILL COME AGAIN\n----------------------------------------\n")
         break
     elif choice2 == 1:
         # Decrypt the message
@@ -74,14 +76,14 @@ while True:
     print(" 2. Exit.")
     print()
 
-    choice3 = int(input("Enter Your Choice: "))
+    choice3 = int(input("Enter Your Choice [1-2]: "))
     print()
 
     if choice3 == 1:
         continue # Skip everthing and start from the starting point
     elif choice3 == 2:
-        print("---- THANKS FOR USING THE SUBSTITUTION CIPHER ----")
-        print(" ---  Hope You Will Come Again  ---")
+        print("----------------------------------------\n  THANKS FOR USING SUBSTITUTION CIPHER\n----------------------------------------")
+        print("----------------------------------------\n      HOPE YOU WILL COME AGAIN\n----------------------------------------\n")
         break
     else:
         print("!! Invalid Choice !! Exiting...\n")
