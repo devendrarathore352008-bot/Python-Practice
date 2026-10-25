@@ -1,5 +1,5 @@
-alphabet_keys  = "abcdefghijklmnopqrstuvwxyz"
-secret_keys = "zxcvbnmasdfghjklpoiuytrewq"
+alphabet_keys  = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 !@#$%^&*-_+=:;><?/`~"
+secret_keys = "QRSTUVWXYZ0123456789 !@#$%^&*-_+=:;><?/`~abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOP"
 
 # Welcome message
 print("----------------------------------------\n      WELCOME TO THE PROGRAM\n----------------------------------------")
@@ -8,7 +8,7 @@ print()
 
 while True:
     # Starting Point , Taking message
-    user_message = input("Enter Your Message: ").lower()
+    user_message = input("Enter Your Message: ")
     print()
 
     # --- Question Set 1 ---
@@ -42,7 +42,7 @@ while True:
         continue
 
     # --- Question set 2 (Only appears if they successfully encrypted) ---
-    print("--- Now What You Want To Do ?? ---")
+    print("--- Now, What You Want To Do ?? ---")
     print(" 1. Decrypt The Message.")
     print(" 2. Try Different Message.")
     print(" 3. Exit.")
@@ -72,6 +72,7 @@ while True:
         continue
 
     # --- Question set 3 (Only appears if they successfully decrypted) ---
+    print("--- Now, What You Want To Do ?? ---")
     print(" 1. Try New Message.")
     print(" 2. Exit.")
     print()
