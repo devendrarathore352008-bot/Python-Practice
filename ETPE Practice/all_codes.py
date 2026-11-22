@@ -156,3 +156,59 @@ for char in S:
         result.append(char)
 
 print(*result)
+
+
+
+#using dictionary funtions
+
+students = {}
+
+while True:
+    data = input().split()
+    
+    if data[0] == "STOP":
+        break
+
+    name = data[0]
+
+    s1,s2,s3 = int(data[1]),int(data[2]),int(data[3])
+    students[name] = (s1,s2,s3)
+
+final_names = []
+
+for name, scores in students.items():
+    score_sum = sum(scores)
+
+    if score_sum % 2 == 0:
+        name = name[::-1]
+
+    else:
+        vowel = "AEIOUaeiou"
+        for i in name:
+            if i in vowel:
+                name = name.replace(i,"*")
+
+    final_names.append(name)
+
+final_names.sort()
+for n in final_names:
+    print(n)
+
+
+# pattern using loop and dict
+list1 = list(map(int,input().split()))
+
+for num in list1:
+    if num % 2 != 0:
+        for i in range(1,num+1):
+            for j in range(1,i+1):
+                print(j, end=" ")
+            print()
+
+    else:
+        for i in range(num,0,-1):
+            for j in range(i):
+                print("*",end=" ")
+            print()
+
+    print("---")
