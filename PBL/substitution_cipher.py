@@ -1,5 +1,5 @@
-alphabet_keys  = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 !@#$%^&*-_+=:;><?/`~"
-secret_keys = "QRSTUVWXYZ0123456789 !@#$%^&*-_+=:;><?/`~abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOP"
+alphabet_keys  = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 (){}[]!@#$%^&*-_+=:;><?/`~"
+secret_keys = "QRSTUVWXYZ0123456789 !@#$%^&*-_+=:;><?/`~abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOP(){}[]"
 
 # Welcome message
 print("----------------------------------------\n      WELCOME TO THE PROGRAM\n----------------------------------------")
